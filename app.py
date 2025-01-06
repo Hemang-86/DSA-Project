@@ -1,9 +1,13 @@
 #to-do: make it interactive with the web page so that it'll be an actual project rather than shit  
 
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, jsonify
 from collections import OrderedDict
 
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 # LRU Cache Implementation
 class LRUCache:

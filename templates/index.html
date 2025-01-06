@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
     <title>LRU Cache</title>
 </head>
 <body>
     <h1>Least Recently Used Cache</h1>
-
+    <header></header>
     <h3>Add Key-Value Pair</h3>
     <input type="number" id="key" placeholder="Key">
     <input type="text" id="value" placeholder="Value">

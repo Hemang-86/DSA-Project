@@ -1,0 +1,47 @@
+
+button, body {
+    background-color: black;
+    color: rgba(44, 176, 88, 0.728);
+    font-family: 'Libre Baskerville';
+    cursor: pointer;
+    
+}
+
+button,.center {
+    display: block;
+    border-color: azure;
+    border-radius: 2cm;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+table,tr,td{
+    border: 2px solid green;
+
+}
+
+input{
+    margin-bottom: 0.25cm;
+    background-color: white;
+    border-radius: 2cm;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+header{
+    height: 1px; 
+    background-color: #333; 
+    margin: 20px 0;
+}
+
+h1{
+    font-size: x-large;
+    text-align: center;
+}
+/* need to improve css work the page still looks like a 4th graders first day vs code lore*/
+
+
