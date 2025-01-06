@@ -1,0 +1,24 @@
+h1, caption {
+    text-align: center;
+}
+button, body {
+    background-color: black;
+    color: rgba(44, 176, 88, 0.728);
+    font-family: 'Libre Baskerville';
+    
+}
+
+button,.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+table,tr,td{
+    border: 2px solid green;
+
+}
+
+/* need to improve css work the page still looks like a 4th graders first day vs code lore*/
+
+
